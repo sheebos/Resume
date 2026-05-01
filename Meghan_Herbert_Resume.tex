@@ -1,0 +1,175 @@
+\documentclass[letterpaper,11pt]{article}
+% chktex-file 1
+% chktex-file 8
+% chktex-file 27
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+% Custom Commands
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeExperienceHeading}[3]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} {\small\textit{#2}} & #3 \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Meghan Herbert} \\ \vspace{1pt}
+    \small (845) 467-5820 $|$ \href{mailto:mkherbert@albany.edu}{\underline{mkherbert@albany.edu}} $|$
+    \href{https://www.linkedin.com/in/meghan-herbert-7023162bb/}{\underline{linkedin.com/in/meghan-herbert-7023162bb}} $|$
+    \href{https://github.com/sheebos}{\underline{github.com/sheebos}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University at Albany}{Aug. 2022 -- May 2026}
+      {B.S. Electrical and Computer Engineering, Minor in Mathematics $|$ \textbf{GPA:} 3.2/4.0}
+      {Albany, NY}
+      \small{\item{
+    {\textbf{Awards}: 2026 133rd Topical Symposium NYSS APS\@: Best Graduate Poster Award, Student Leadership Award 2025 -- UAlbany ECE Department, Best Project Showcase Day 2025 - UAlbany ECE Department, UAlbany Hackathon Best ECE Project 2024}\\
+   }}
+
+  \resumeSubHeadingListEnd
+
+%----------- TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      {\textbf{Instrumentation}: High-vacuum chambers, Mass Spectrometry, Electrical Device Characterization Techniques}\\
+      {\textbf{Languages}: Python, MATLAB, LaTeX, C, VHDL, Verilog, MIPS, Java}\\
+      {\textbf{Tools}: Visual Studio Code, MATLAB, Autodesk Fusion, AutoCAD, Spyder}}}
+    \end{itemize}
+
+    %-----------PROJECTS-----------
+    \section{Projects}
+      \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+        {\textbf{Cryogenic Characterization of MEMS Switches} $|$ UAlbany \& Menlo Micro}{Fall 2025 -- Spring 2026}
+        \resumeItemListStart
+          \resumeItem{Evaluated MEMS switch devices for cryogenic quantum-system applications, focusing on reduced heat dissipation compared to conventional relay-based switching.}
+          \resumeItem{Performed dynamic response testing of MEMS cantilevers under room-temperature, liquid nitrogen, and high-vacuum conditions to characterize resonant frequency and damping behavior.}
+          \resumeItem{Analyzed device performance before and after cryogenic exposure, comparing chipped and unchipped MEMS switches to assess environmental robustness and mechanical consistency.}
+        \resumeItemListEnd
+      \resumeProjectHeading
+        {\textbf{Encapsulation Effects on MEMS Switches Resistance} $|$ UAlbany \& Menlo Micro}{Summer 2025}
+        \resumeItemListStart
+          \resumeItem{Investigated how varying gas-environment compositions affect MEMS RF switch contact resistance.}
+          \resumeItem{Performed vacuum system operation, pressure and gas control, and automated test measurements.}
+        \resumeItemListEnd
+
+        \resumeProjectHeading
+          {\textbf{Helium Leak Detection for Semiconductor Applications} $|$ GlobalFoundries}{Spring 2026}
+          \resumeItemListStart
+            \resumeItem{Designed a thermistor-based Wheatstone bridge TCD array to detect helium leaks through differential voltage shifts caused by thermal conductivity changes.}
+            \resumeItem{Integrated Arduino Due and Raspberry Pi data collection to process, display, and save sensor outputs.}
+          \resumeItemListEnd
+
+        \resumeProjectHeading
+          {\textbf{Wafer Defect Classification using Machine Learning}}{Spring 2026}
+          \resumeItemListStart
+            \resumeItem{Classified semiconductor wafer map defect patterns from the WM-811K dataset using CNN-based image classification and a Random Forest baseline.}
+          \resumeItemListEnd
+
+
+      \resumeSubHeadingListEnd
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeExperienceHeading
+      {Undergraduate Research Assistant}{UAlbany CNSE}{June 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Research MEMS switch resistance and lifetime under varying encapsulation environments in collaboration with Menlo Microsystems and University at Albany.}
+        \resumeItem{Operate a custom high-vacuum chamber to test temperature-dependency and gas-composition characterization.}
+        \resumeItem{Develop hands-on experience with chamber isolation, environmental control, and data acquisition for MEMS switch characterization.}
+        \resumeItem{Assisted in development of technical CAD drawings, related machining and assembled custom vacuum-system components for use in both overpressure systems and vacuum.}
+      \resumeItemListEnd
+    \resumeExperienceHeading
+      {AVS Student Chapter - Secretary}{American Vacuum Society}{Spring 2026 -- Present}
+      \resumeItemListStart
+        \resumeItem{Coordinated local AVS conference support and student chapter events.}
+      \resumeItemListEnd
+
+    \resumeExperienceHeading
+      {IEEE Student Branch - Vice President \& Director of ECE Affairs}{IEEE}{Fall 2024 -- Present}
+      \resumeItemListStart
+        \resumeItem{Lead a large student engineering organization and coordinate events supporting ECE student engagement, professional development, and department outreach.}
+      \resumeItemListEnd
+
+    \resumeExperienceHeading
+      {Peer Teacher, CNSE Learning Center}{UAlbany CNSE}{Fall 2023 -- Winter 2024}
+      \resumeItemListStart
+        \resumeItem{Provided academic support for 3 introductory ECE classes, helping students understand fundamental digital systems, introductory ECE concepts, and computer science foundations.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------AWARDS-----------
+\end{document}
