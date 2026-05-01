@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.1)  1 MAY 2026 00:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.1)  1 MAY 2026 01:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -287,6 +287,10 @@ Package hyperref Info: Link coloring OFF on input line 77.
 
 
 
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <32> not available
+(Font)              size <24.88> substituted on input line 81.
+
+
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 81.
 
@@ -319,21 +323,25 @@ L3 programming layer <2026-03-20>
  ***********
 
 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 7.12pt have occurred.
+
+
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Meghan_Herbert_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: 384E8BA55F90A4D3CD9BEEDCEA7CDBDA;390.
  ) 
 Here is how much of TeX's memory you used:
- 10918 strings out of 467691
- 170050 string characters out of 5432310
+ 10919 strings out of 467691
+ 170064 string characters out of 5432310
  632671 words of memory out of 5000000
- 39856 multiletter control sequences out of 15000+600000
+ 39857 multiletter control sequences out of 15000+600000
  633672 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,321b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <K:/LaTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><K:/LaTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><K:/LaTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><K:/LaTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><K:/LaTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><K:/LaTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><K:/LaTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><K:/LaTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Meghan_Herbert_Resume.pdf (1 page, 119281 bytes).
+Output written on Meghan_Herbert_Resume.pdf (1 page, 118761 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
